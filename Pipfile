@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pgbackup = {editable = true, path = "."}
+pytest = "*"
 
 [dev-packages]
 
